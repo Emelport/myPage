@@ -1,0 +1,44 @@
+<section class="pt-16 min-h-screen flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900">
+
+    <span class="victor-font text-green-200 text-8xl">const</span>
+    <span class="victor-font text-blue-400 text-8xl mb-2">developer</span>
+    <span class="victor-font text-orange-300 text-8xl">=
+        <span class="victor-font text-red-400 text-8xl">{"{"}</span>
+    </span>
+    <span class="mt-8 victor-font text-gray-400 text-2xl">name:
+        <span class="text-green-400">"</span>
+        <span class="text-white">FullStack Developer
+            <span class="animate-blink inline-block w-1 h-7 bg-white align-middle ml-1"></span>
+        </span>
+        <span class="text-green-400">"</span>,
+    </span>
+    <span class="mt-4 victor-font text-gray-400 text-2xl">skills:
+        <span class="text-green-400 p-0">[</span>
+        <span class="text-blue-300">"Angular",</span>
+        <span class="text-blue-300">"Node.js",</span>
+        <span class="text-blue-300">"SQL",</span>
+        <span class="text-blue-300">".NET",</span>
+        <span class="text-blue-300">"Git"</span>
+        <span class="text-orange-400">]</span>
+    </span>
+    <span class="mt-8 victor-font text-red-400 text-8xl">{"}"}</span>
+
+    <div>
+        <button class="mt-10 px-6 py-3 min-w-[160px] border-2 border-blue-300 bg-blue-400 text-white rounded hover:bg-blue-500 hover:border-blue-400 transition duration-300">
+            <a href="#contacto">My Projects</a>
+        </button>
+        <button class="mt-10 ml-4 px-6 py-3 min-w-[160px] border-2 border-blue-300 text-blue-400 bg-transparent hover:bg-blue-400 hover:text-white transition duration-300 rounded">
+            <span>Contact Me</span>
+        </button>
+    </div>
+</section>
+
+<style>
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+    }
+    .animate-blink {
+        animation: blink 1s steps(1, end) infinite;
+    }
+</style>
