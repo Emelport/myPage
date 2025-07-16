@@ -10,13 +10,16 @@ import "../styles/global.css";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Emelport Portfolio 💼</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 		<link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<script type="module" src="/src/scripts/lenis.js"></script>
 		<div style="touch-action: pan-y;">
 			<slot />
 		</div>
 	</body>
+	
 </html>
 
 <style>
