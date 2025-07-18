@@ -8,6 +8,4 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: 'https://emelport.github.io',
-  base: '/portFolio',
 });
