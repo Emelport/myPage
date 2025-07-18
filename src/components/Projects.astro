@@ -1,101 +1,81 @@
-<section id="Projects" class="pt-24 min-h-screen flex flex-col items-center bg-gradient-to-b from-gray-950 to-gray-900">
-    <span class="victor-font text-green-400 text-4xl mb-4"> //
-        <span class="victor-font text-4xl bg-gradient-to-r from-blue-400 via-purple-600 to-pink-500 text-transparent bg-clip-text">
-            My Projects
-        </span>
+<section id="Projects" class="pt-24 min-h-screen px-4 bg-gradient-to-b victor-font from-gray-950 to-gray-900 flex flex-col items-center pb-8">
+  <span class="victor-font text-green-400 text-4xl mb-4">// 
+    <span class="bg-gradient-to-r from-blue-400 via-purple-600 to-pink-500 text-transparent bg-clip-text">
+      My Projects
     </span>
+  </span>
 
-    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mt-4">
-        <!-- Project Card -->
-        <a href="https://github.com/Emelport/Paint" target="_blank" rel="noopener noreferrer"
-            class="group bg-gray-800 border border-gray-700 rounded-lg p-4 victor-font text-white w-full max-w-md transition-transform transform hover:scale-[1.03] hover:shadow-lg cursor-pointer">
+  <div class="grid gap-8 w-full max-w-7xl sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6">
+    
+    <!-- Project Card -->
+    <a href="https://github.com/Emelport/Paint" target="_blank" rel="noopener noreferrer"
+       class="group bg-gray-800/60 backdrop-blur border border-gray-700 rounded-2xl p-6 flex flex-col justify-between transition-transform hover:scale-105 hover:shadow-xl hover:border-blue-500">
 
-            <!-- Image -->
-            <div class="mb-4 flex items-center">
-                <img src="/src/assets/paintLogo.ico" alt="Paint Project Screenshot" class="w-15 h-15 rounded mr-2" />
-                <h3 class="font-semibold text-lg text-blue-400 mb-2">Paint++</h3>
-            </div>
+      <div class="flex items-center mb-4">
+        <img src="/src/assets/paintLogo.ico" alt="Paint++ Logo" class="w-10 h-10 rounded mr-3" />
+        <h3 class="text-xl font-bold text-blue-400">Paint++</h3>
+      </div>
 
-            <!-- Description -->
-            <p class="text-sm mb-4">
-            A simple paint application built with HTML, CSS, and JavaScrip. It explores mathematical formulas to control pixel drawing and brush behavior.
-            </p>
+      <p class="text-sm text-gray-300 mb-4">
+        A simple paint application built with HTML, CSS, and JavaScript. It explores mathematical formulas to control pixel drawing and brush behavior.
+      </p>
 
-            <!-- Technologies -->
-            <div class="flex flex-wrap gap-2 mb-4 text-lg">
-                <span class="text-yellow-400"><i class="devicon-javascript-plain"></i></span>
-                <span class="text-blue-500"><i class="devicon-html5-plain"></i></span>
-                <span class="text-orange-500"><i class="devicon-css3-plain"></i></span>
-            </div>  
+      <div class="flex gap-3 text-lg mb-4">
+        <i class="devicon-javascript-plain text-yellow-400"></i>
+        <i class="devicon-html5-plain text-blue-500"></i>
+        <i class="devicon-css3-plain text-orange-500"></i>
+      </div>
 
-            <!-- Links -->
-            <div class="flex justify-end items-center text-sm">
-            <span class="text-gray-400 group-hover:text-white flex items-center gap-1">
-                <i class="devicon-github-original"></i> GitHub
-            </span>
-            </div>
-        </a>
+      <div class="flex justify-end text-sm text-gray-400 group-hover:text-white items-center gap-1">
+        <i class="devicon-github-original"></i> GitHub
+      </div>
+    </a>
 
-         <!-- Project Card -->
-        <a href="https://github.com/Emelport/MusicLector" target="_blank" rel="noopener noreferrer"
-            class="group bg-gray-800 border border-gray-700 rounded-lg p-4 victor-font text-white w-full max-w-md transition-transform transform hover:scale-[1.03] hover:shadow-lg cursor-pointer">
+    <!-- MusicLector Card -->
+    <a href="https://github.com/Emelport/MusicLector" target="_blank" rel="noopener noreferrer"
+       class="group bg-gray-800/60 backdrop-blur border border-gray-700 rounded-2xl p-6 flex flex-col justify-between transition-transform hover:scale-105 hover:shadow-xl hover:border-blue-500">
 
+      <div class="flex items-center mb-4">
+        <img src="/src/assets/musicLector.ico" alt="Music Lector Logo" class="w-10 h-10 rounded mr-3" />
+        <h3 class="text-xl font-bold text-blue-400">MusicLector</h3>
+      </div>
 
-            <!-- Image -->
-            <div class="mb-4 flex items-center">
-                <img src="/src/assets/musicLector.ico" alt="Music Lector Screenshot" class="w-15 h-15 rounded mr-2" />
-                <h3 class="font-semibold text-lg text-blue-400 mb-2">MusicLector</h3>
-            </div>
+      <p class="text-sm text-gray-300 mb-4">
+        A musician's Windows app to organize PDF scores, manage order, read them, and make annotations. Focused on usability and performance.
+      </p>
 
-            <!-- Description -->
-            <p class="text-sm mb-4">
-                A musician's windows app to organize PDF scores, manage order, read them, and make annotations. It features a simple interface with a focus on usability. Check the Github Release for more details.
-            </p>
+      <div class="flex gap-3 text-lg mb-4">
+        <i class="devicon-flutter-plain colored" title="Flutter"></i>
+      </div>
 
-            <!-- Technologies -->
-            <div class="flex flex-wrap gap-2 mb-4 text-lg">
-                <span><i class="devicon-flutter-plain colored btn-tooltip" title="Flutter"> </i></span>
-            </div>
+      <div class="flex justify-end text-sm text-gray-400 group-hover:text-white items-center gap-1">
+        <i class="devicon-github-original"></i> GitHub
+      </div>
+    </a>
 
-            <!-- Links -->
-            <div class="flex justify-end items-center text-sm">
-                <span class="text-gray-400 group-hover:text-white flex items-center gap-1">
-                    <i class="devicon-github-original"></i> GitHub
-                </span>
-            </div>
-        </a>
+    <!-- Osiris Card -->
+    <a href="https://github.com/Emelport/Osiris" target="_blank" rel="noopener noreferrer"
+       class="group bg-gray-800/60 backdrop-blur border border-gray-700 rounded-2xl p-6 flex flex-col justify-between transition-transform hover:scale-105 hover:shadow-xl hover:border-blue-500">
 
-           <!-- Project Card -->
-        <a href="https://github.com/Emelport/Osiris" target="_blank" rel="noopener noreferrer"
-            class="group bg-gray-800 border border-gray-700 rounded-lg p-4 victor-font text-white w-full max-w-md transition-transform transform hover:scale-[1.03] hover:shadow-lg cursor-pointer">
+      <div class="flex items-center mb-4">
+        <img src="/src/assets/osiris.png" alt="Osiris Logo" class="w-10 h-10 rounded mr-3" />
+        <h3 class="text-xl font-bold text-blue-400">Osiris</h3>
+      </div>
 
+      <p class="text-sm text-gray-300 mb-4">
+        Planting Management System: manage tasks, crops, and resources. A simple ERP-like app for small farms.
+      </p>
 
-            <!-- Image -->
-            <div class="mb-4 flex items-center">
-                <img src="/src/assets/osiris.ico" alt="Music Lector Screenshot" class="w-15 h-15 rounded mr-2" />
-                <h3 class="font-semibold text-lg text-blue-400 mb-2">Osiris</h3>
-            </div>
+      <div class="flex gap-3 text-lg mb-4">
+        <i class="devicon-dot-net-plain colored" title="ASP.NET"></i>
+        <i class="devicon-angular-plain text-red-700" title="Angular"></i>
+        <i class="devicon-microsoftsqlserver-plain text-orange-600" title="SQL Server"></i>
+      </div>
 
-            <!-- Description -->
-            <p class="text-sm mb-4">
-               Planting Management System. A web application to manage planting tasks, crops, and resources. It features a user-friendly interface with a focus on usability. its like a simple ERP for small farms.
-            </p>
+      <div class="flex justify-end text-sm text-gray-400 group-hover:text-white items-center gap-1">
+        <i class="devicon-github-original"></i> GitHub
+      </div>
+    </a>
 
-            <!-- Technologies -->
-            <div class="flex flex-wrap gap-2 mb-4 text-lg">
-                <span><i class="devicon-dot-net-plain colored btn-tooltip" title="Asp.Net"> </i></span>
-                <span><i class="devicon-angular-plain btn-tooltip text-red-800" title="Angular"> </i></span>
-                <span><i class="devicon-microsoftsqlserver-plain btn-tooltip text-orange-700" title="Sql Server"> </i></span>
-            </div>
-
-            <!-- Links -->
-            <div class="flex justify-end items-center text-sm">
-                <span class="text-gray-400 group-hover:text-white flex items-center gap-1">
-                    <i class="devicon-github-original"></i> GitHub
-                </span>
-            </div>
-        </a>
-    </div>
-
-
+  </div>
 </section>
